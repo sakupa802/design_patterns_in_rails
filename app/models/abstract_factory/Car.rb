@@ -1,5 +1,5 @@
-module FactoryMethod
-  class BlueCar < FactoryMethod::BlueCarFactory
+module AbstractFactory
+  class Car
     def start
       puts 'start blue car'
     end
