@@ -1,11 +1,11 @@
 module AbstractFactory
   class Car
     def start
-      puts 'start blue car'
+      puts 'start car'
     end
 
     def stop
-      puts 'stop blue car'
+      puts 'stop car'
     end
   end
 end
