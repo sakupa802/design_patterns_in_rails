@@ -5,5 +5,8 @@ class TopsController < ApplicationController
 
     AbstractFactory::Drive.new(AbstractFactory::DrivingCarFactory.new)
                               .simulate()
+
+    TemplateMethod::PlainReport.new.output_report()
+    TemplateMethod::HtmlReport.new.output_report()
   end
 end
